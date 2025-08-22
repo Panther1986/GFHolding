@@ -1,4 +1,4 @@
-.hero-section {
+/* .hero-section {
   color: #0d0d0d;
   width: 100%;
   min-height: 100vh;
@@ -32,10 +32,10 @@
 
 .hero-text-group {
   max-width: 100%;
-}
+} */
 
 /* === Базовые стили (мобилка) === */
-.hero-first-text {
+/* .hero-first-text {
   font-family: 'Anton', sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -63,10 +63,10 @@
   font-size: 14px;
   text-align: left;
   color: #0d0d0d;
-}
+} */
 
 /* === Планшет (768px+) === */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .hero-section {
     padding: 60px 40px;
   }
@@ -90,10 +90,10 @@
   .hero-second-container {
     gap: 200px;
   }
-}
+} */
 
 /* === Десктоп (1440px+) === */
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .hero-section {
     padding: 80px;
   }
@@ -121,4 +121,10 @@
   .hero-floating-photo-wrapper {
     transform: translate(300%, 20%);
   }
+} */
+
+.main-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #ab8328;
 }
