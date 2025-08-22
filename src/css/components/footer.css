@@ -1,11 +1,30 @@
 .section-footer {
-  background-color: #013220;
-  padding-top: 30px;
+  background-color: #142e20;
+  /* padding-top: 30px;
   padding-bottom: 40px;
-  color: #0d0d0d;
+  color: #0d0d0d; */
+}
+.footer-main {
+  text-align: center;
+  padding: 20px 10px;
+  position: relative;
 }
 
-.footer-main-container {
+.footer-main hr {
+  border: 0;
+  height: 2px;
+  background-color: #b8860b; /* золотой цвет линии */
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer-main .content {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  color: #000;
+  line-height: 1.5;
+}
+/* .footer-main-container {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -102,7 +121,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #013220;
+  background-color: #142e20;
   border-radius: 50%;
 }
 
@@ -211,4 +230,4 @@
   display: flex;
   align-items: center;
   color: #0d0d0d;
-}
+} */

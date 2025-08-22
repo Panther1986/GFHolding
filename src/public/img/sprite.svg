@@ -35,5 +35,21 @@
 <symbol id="icon-facebook1" viewBox="0 0 32 32">
 <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
 </symbol>
+  <symbol id="logo-gfh" viewBox="0 0 600 150" preserveAspectRatio="xMidYMid meet">
+  <rect width="100%" height="100%" fill="#142e20"/>
+  
+    <!-- Верхняя строка -->
+    <text x="50%" y="55" fill="#b8860b" font-family="Georgia, serif" font-size="42" font-weight="bold" text-anchor="middle">
+      GMYRIN FAMILY
+    </text>
+    <line x1="60" y1="70" x2="540" y2="70" stroke="#b8860b" stroke-width="2"/>
+  
+    <!-- Нижняя строка -->
+    <text x="50%" y="115" fill="#b8860b" font-family="Georgia, serif" font-size="32" letter-spacing="12" text-anchor="middle">
+      HOLDING LIMITED
+    </text>
+    <line x1="60" y1="125" x2="540" y2="125" stroke="#b8860b" stroke-width="2"/>
+  </symbol>
+
  </defs>
 </svg>
