@@ -1,0 +1,124 @@
+.hero-section {
+  color: #0d0d0d;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 40px 16px;
+  box-sizing: border-box;
+}
+.hero-second-container {
+  display: flex;
+  gap: 100px;
+  position: relative;
+  padding-bottom: 120px;
+}
+.hero-floating-photo-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translate(-10%, 30%);
+  z-index: 10;
+}
+.hero-floating-photo {
+  width: 240px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+.hero-wrapper {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.hero-text-group {
+  max-width: 100%;
+}
+
+/* === Базовые стили (мобилка) === */
+.hero-first-text {
+  font-family: 'Anton', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 16px;
+  color: #0d0d0d;
+}
+
+.hero-second-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 16px;
+  color: #0d0d0d;
+}
+
+.hero-author {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+  color: #0d0d0d;
+}
+
+/* === Планшет (768px+) === */
+@media screen and (min-width: 768px) {
+  .hero-section {
+    padding: 60px 40px;
+  }
+  .hero-floating-photo-wrapper {
+    transform: translate(25%, 20%);
+  }
+
+  .hero-first-text {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .hero-second-text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .hero-author {
+    font-size: 16px;
+  }
+  .hero-second-container {
+    gap: 200px;
+  }
+}
+
+/* === Десктоп (1440px+) === */
+@media screen and (min-width: 1440px) {
+  .hero-section {
+    padding: 80px;
+  }
+
+  .hero-text-group {
+    max-width: 800px;
+  }
+
+  .hero-first-text {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .hero-second-text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .hero-author {
+    font-size: 18px;
+  }
+  .hero-second-container {
+    gap: 300px;
+  }
+  .hero-floating-photo-wrapper {
+    transform: translate(300%, 20%);
+  }
+}

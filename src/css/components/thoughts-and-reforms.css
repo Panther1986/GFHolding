@@ -1,0 +1,210 @@
+.section-reforms {
+  background-color: #e4e4e4;
+  display: flex;
+  justify-content: center;
+  color: #0d0d0d;
+}
+.reforms-main-container {
+  width: 100%;
+  max-width: 680px;
+  box-sizing: border-box;
+
+  border: 2px solid #345742;
+  border-radius: 24px;
+  padding: 40px 24px 10px 20px;
+
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .reforms-main-container {
+    width: 680px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reforms-main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: none;
+  }
+}
+.reforms-main-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .reforms-main-title {
+    width: 100%;
+    max-width: 680px;
+    padding: 0;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reforms-main-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: none;
+    font-size: 40px;
+  }
+}
+.reforms-first-title {
+  /* padding-top: 48px; */
+  padding-bottom: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .reforms-first-title {
+    width: 100%;
+    max-width: 680px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reforms-first-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: none;
+    font-size: 28px;
+  }
+}
+.reforms-article-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+
+  padding-bottom: 32px;
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .reforms-article-title {
+    width: 100%;
+    max-width: 680px;
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reforms-article-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: none;
+    font-size: 20px;
+  }
+}
+
+.reforms-text {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 28.5px;
+  letter-spacing: 0;
+  text-align: justify;
+
+  max-height: 120px;
+  overflow: hidden;
+  position: relative;
+  transition: max-height 0.3s ease;
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .reforms-text {
+    width: 100%;
+    max-width: 680px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reforms-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: none;
+    font-size: 18px;
+  }
+}
+.reforms-text.expanded {
+  max-height: 10000px;
+}
+
+.reforms-container-text {
+  width: 307px;
+  height: auto;
+  transition: height 0.3s ease;
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .reforms-container-text {
+    width: 100%;
+    max-width: 680px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reforms-container-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: none;
+    font-size: 28px;
+  }
+}
+.reforms-btn-read-full {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 177px;
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid #345742;
+  cursor: pointer;
+  color: #345742;
+  background-color: transparent;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .reforms-btn-read-full {
+    width: 185px;
+    height: 44px;
+    font-size: 16px;
+  }
+}
